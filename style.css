@@ -1,0 +1,19 @@
+@font-face {
+    font-family: dutch;
+    src: url(font/dutch.otf);
+}
+
+/*animation */
+@keyframes blinking {
+    0% {
+        color: #FFFFFF;
+    }
+
+    100% {
+        color: #212529;
+    }
+}
+
+#separator {
+    animation: blinking 1s infinite;
+}
